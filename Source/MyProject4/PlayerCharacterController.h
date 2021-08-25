@@ -21,6 +21,9 @@ public:
 private:
 	uint32 bMoveToMouseCursor : 1;
 
+	UPROPERTY()
+	bool bIsAttacking;
+
 	FTimerHandle AttackTimerHandle;
 
 	virtual void PlayerTick(float DeltaTime) override;

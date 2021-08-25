@@ -104,6 +104,12 @@ void APlayerCharacterController::MoveToMouseCursor()
 		}
 		else
 		{
+			if (bIsAttacking == true)
+			{
+				this->CancelAttackOrAbility();
+				bIsAttacking = false;
+			}
+
 			SetNewMoveDestination(Hit.ImpactPoint, bIsEnemy, nullptr);
 		}
 	}
@@ -250,6 +256,8 @@ void APlayerCharacterController::Attack(AActor* Target)
 
 	if (!(GetWorld()->GetTimerManager().IsTimerActive(AttackTimerHandle)))
 	{
+		bIsAttacking = true;
+
 		FVector PlayerLocation = PlayerCharacter->GetActorLocation();
 		FRotator PlayerRotation = PlayerCharacter->GetActorRotation();
 
