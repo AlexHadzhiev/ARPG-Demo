@@ -6,7 +6,7 @@
 #include "ArrowProjectile.generated.h"
 
 UCLASS()
-class MYPROJECT4_API AArrowProjectile : public AProjectile
+class ARPGDEMO_API AArrowProjectile : public AProjectile
 {
 	GENERATED_BODY()
 

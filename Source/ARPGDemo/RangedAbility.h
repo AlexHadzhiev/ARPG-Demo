@@ -4,27 +4,26 @@
 #include "Ability.h"
 #include "Projectile.h"
 
-#include "SplitArrowsAbility.generated.h"
+#include "RangedAbility.generated.h"
 
 UCLASS()
-class MYPROJECT4_API USplitArrowsAbility : public UAbility
+class ARPGDEMO_API URangedAbility : public UAbility
 {
 	GENERATED_BODY()
-
+	
 public:
-	USplitArrowsAbility();
+	URangedAbility();
+
+	UPROPERTY(EditAnywhere)
+	uint16 NumberOfProjectiles;
 
 	UPROPERTY()
-	AProjectile* ProjectileForward;
-
-	UPROPERTY()
-	AProjectile* ProjectileLeft;
-
-	UPROPERTY()
-	AProjectile* ProjectileRight;
+	AProjectile* Projectile;
 
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<AProjectile> ProjectileClass;
+
+	virtual void UseAbility() override;
 
 	virtual void UseAbility(AActor* Target) override;
 

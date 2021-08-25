@@ -8,7 +8,7 @@
 
 
 UCLASS()
-class MYPROJECT4_API AMeleeWeapon : public AWeapon
+class ARPGDEMO_API AMeleeWeapon : public AWeapon
 {
 	GENERATED_BODY()
 

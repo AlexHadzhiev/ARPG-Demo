@@ -5,7 +5,7 @@
 #include "PlayerGameMode.generated.h"
 
 UCLASS()
-class MYPROJECT4_API APlayerGameMode : public AGameModeBase
+class ARPGDEMO_API APlayerGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 	

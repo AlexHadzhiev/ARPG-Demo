@@ -6,7 +6,7 @@
 #include "MeleeAbility.generated.h"
 
 UCLASS()
-class MYPROJECT4_API UMeleeAbility : public UAbility
+class ARPGDEMO_API UMeleeAbility : public UAbility
 {
 	GENERATED_BODY()
 

@@ -12,7 +12,7 @@ class APlayerCharacter;
 class AWeapon;
 
 UCLASS()
-class MYPROJECT4_API AEnemyCharacter : public ACharacter
+class ARPGDEMO_API AEnemyCharacter : public ACharacter
 {
 	GENERATED_BODY()
 

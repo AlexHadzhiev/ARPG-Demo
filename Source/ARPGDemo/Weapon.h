@@ -6,7 +6,7 @@
 #include "Weapon.generated.h"
 
 UCLASS()
-class MYPROJECT4_API AWeapon : public AActor
+class ARPGDEMO_API AWeapon : public AActor
 {
 	GENERATED_BODY()
 	

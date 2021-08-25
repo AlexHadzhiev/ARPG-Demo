@@ -10,7 +10,7 @@
 class UBoxComponent;
 
 UCLASS()
-class MYPROJECT4_API AProjectile : public AActor
+class ARPGDEMO_API AProjectile : public AActor
 {
 	GENERATED_BODY()
 	

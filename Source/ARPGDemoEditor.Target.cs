@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class MyProject4EditorTarget : TargetRules
+public class ARPGDemoEditorTarget : TargetRules
 {
-	public MyProject4EditorTarget(TargetInfo Target) : base(Target)
+	public ARPGDemoEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.Add("MyProject4");
+		ExtraModuleNames.Add("ARPGDemo");
 	}
 }

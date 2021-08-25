@@ -1,5 +1,8 @@
-l Studio 2015 user specific files
+# Visual Studio 2015 user specific files
 .vs/
+
+# renom backup files
+_renom
 
 # Compiled Object files
 *.slo

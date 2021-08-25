@@ -2,15 +2,27 @@
 
 #include "CoreMinimal.h"
 #include "Projectile.h"
-#include "SplitArrowsProjectile.generated.h"
+#include "Engine/EngineTypes.h"
+#include "TimerManager.h"
+
+#include "FireballProjectile.generated.h"
 
 UCLASS()
-class MYPROJECT4_API ASplitArrowsProjectile : public AProjectile
+class ARPGDEMO_API AFireballProjectile : public AProjectile
 {
 	GENERATED_BODY()
 
 public:
-	ASplitArrowsProjectile();
+	AFireballProjectile();
+
+	UPROPERTY(EditAnywhere)
+	bool bOverpenetrates;
+
+	UPROPERTY(EditAnywhere)
+	float Lifetime;
+
+	UPROPERTY()
+	FTimerHandle DeathTimerHandle;
 
 protected:
 	virtual void BeginPlay() override;

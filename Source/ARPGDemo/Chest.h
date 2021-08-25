@@ -7,7 +7,7 @@
 class UBoxComponent;
 
 UCLASS()
-class MYPROJECT4_API AChest : public AActor
+class ARPGDEMO_API AChest : public AActor
 {
 	GENERATED_BODY()
 	

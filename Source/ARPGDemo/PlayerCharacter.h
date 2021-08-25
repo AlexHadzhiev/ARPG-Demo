@@ -16,7 +16,7 @@
 #include "PlayerCharacter.generated.h"
 
 UCLASS()
-class MYPROJECT4_API APlayerCharacter : public ACharacter
+class ARPGDEMO_API APlayerCharacter : public ACharacter
 {
 	GENERATED_BODY()
 

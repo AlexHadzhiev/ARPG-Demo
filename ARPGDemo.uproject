@@ -1,0 +1,17 @@
+{
+  "Category": "",
+  "Description": "",
+  "EngineAssociation": "4.25",
+  "FileVersion": 3,
+  "Modules": [
+    {
+      "AdditionalDependencies": [
+        "Engine",
+        "CoreUObject"
+      ],
+      "LoadingPhase": "Default",
+      "Name": "ARPGDemo",
+      "Type": "Runtime"
+    }
+  ]
+}

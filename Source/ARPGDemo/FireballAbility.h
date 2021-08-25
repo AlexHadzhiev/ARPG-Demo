@@ -7,7 +7,7 @@
 #include "FireballAbility.generated.h"
 
 UCLASS()
-class MYPROJECT4_API UFireballAbility : public UAbility
+class ARPGDEMO_API UFireballAbility : public UAbility
 {
 	GENERATED_BODY()
 

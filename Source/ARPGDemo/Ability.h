@@ -8,7 +8,7 @@
 #include "Ability.generated.h"
 
 UCLASS(Blueprintable)
-class MYPROJECT4_API UAbility : public UObject
+class ARPGDEMO_API UAbility : public UObject
 {
 	GENERATED_BODY()
 	

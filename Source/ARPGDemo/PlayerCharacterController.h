@@ -9,7 +9,7 @@
 #include "PlayerCharacterController.generated.h"
 
 UCLASS()
-class MYPROJECT4_API APlayerCharacterController : public APlayerController
+class ARPGDEMO_API APlayerCharacterController : public APlayerController
 {
 	GENERATED_BODY()
 	
