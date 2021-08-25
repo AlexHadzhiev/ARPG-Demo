@@ -247,6 +247,8 @@ void APlayerCharacter::Attack(AActor* Target)
 				{
 					Weapon->Attack(Enemy, this);
 				}
+
+				(Cast<APlayerCharacterController>(GetController()))->bIsAttacking = false;
 			}
 		}
 	}

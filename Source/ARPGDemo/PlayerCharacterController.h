@@ -19,11 +19,11 @@ public:
 	UFUNCTION()
 	void Attack(AActor* Target);
 
-private:
-	uint32 bMoveToMouseCursor : 1;
-
 	UPROPERTY()
 	bool bIsAttacking;
+
+private:
+	uint32 bMoveToMouseCursor : 1;
 
 	FTimerHandle AttackTimerHandle;
 
