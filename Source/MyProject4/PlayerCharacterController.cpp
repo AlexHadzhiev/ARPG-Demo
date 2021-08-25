@@ -7,8 +7,8 @@
 #include "PlayerCharacter.h"
 #include "Components/CapsuleComponent.h"
 #include "EnemyCharacter.h"
-#include "Weapon.h"
 #include "Ability.h"
+#include "Weapon.h"
 
 APlayerCharacterController::APlayerCharacterController()
 {
